@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+
+
+
+}
+
+img {
+    width 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+/*CLASSES*/
+
+.hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*SPLASHBILLEDE - MOBILE*/
+/*
+#splash .overlay {
+    position: absolute;
+    float: left;
+    width: 640px;
+    min-height: 722px;
+    background-color: #2424b5;
+    z-index: 300000;
+    opacity: 50%;
+}*/
+
+
+
+/*OVERSKRIFTER*/
+
+h1 {
+    font-size: 30px;
+    font-family: 'Patua One', cursive;
+    color: black;
+    padding-left: 35px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Patua One', cursive;
+    color: #4444d9;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Patua One', cursive;
+    color: #4444d9;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+p {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    line-height: 1.8rem;
+    padding: 30px;
+    margin: 10px;
+}
+
+/*KAMPAGNE SEKTION*/
+
+#kampagne .sectionwrapper {
+    display: flex;
+    background-color: #a3dce6;
+    flex-wrap: wrap-reverse;
+
+}
+
+
+/*MÅLGRUPPE*/
+#group .sectionwrapper {
+    display: flex;
+    background-color: #e8c176;
+    flex-wrap: wrap-reverse;
+
+}
+
+
+
+/*BURGERMENU mobilefirst*/
+
+#navbar a {
+    font-family: 'Patua One', cursive;
+    text-decoration: none;
+
+}
+
+#navbar ul li {
+    display: block;
+
+}
+
+#menu {
+    height: 170px;
+    margin: 0;
+    line-height: 1.6;
+
+}
+
+#menu ul {
+    height: 100px;
+    text-decoration: none;
+}
+
+#menuknap {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+#navbar a {
+    border: none;
+
+}
+
+#menu.hidden {
+    height: 30px;
+}
+
+
+#menu a:hover {
+    color: #bcbcbc
+}
+
+#menuknap {
+    display: inline-block;
+    color: #4444d9;
+}
+
+#menu {
+
+    list-style-type: none;
+    transition: transform 0.3s;
+    transform-origin: top left;
+    font-family: 'Open sans', sans-serif;
+    font-weight: lighter;
+    height: 88px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #e5e5e5;
+    padding-top: 15px;
+}
+
+/*MQ TIL HEADER -  DESKTOP VERSION*/
+@media (min-width: 768px) {
+
+    #menuknap {
+        display: none;
+        float: right;
+
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+
+    }
+
+    #menu {
+
+        list-style-type: none;
+        transition: transform 0.3s;
+        transform-origin: top left;
+        font-family: 'Open sans', sans-serif;
+        font-weight: lighter;
+        height: 70px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        background-color: #e5e5e5;
+        padding-top: 15px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    #navbar ul li {
+        display: inline-block;
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center;
+        border-left: 0.1px solid black;
+    }
+
+    #navbar ul li:first-child {
+        border-left: none;
+    }
+
+    #navbar ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+}
+
+/*VIDEO BG - DESKTOP*/
+@media (min-width: 768px) {
+    #splash {
+        position: relative;
+    }
+
+    #videoBG {
+        z-index: -1;
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+
+    }
+
+}
+
+#arrow {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    background-image: url(arrow.svg);
+    background-size: cover;
+    left: 45vw;
+    bottom: 0vw;
+
+
+}
+
+
+
+/*FORSIDE - MOBIL*/
+
+
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+
+    #splash {
+        background: url(splash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        background-position: 55% 15%;
+        max-width: none;
+    }
+
+    #arrow {
+        position: absolute;
+        width: 20vw;
+        height: 20vw;
+        background-image: url(arrow.svg);
+        background-size: cover;
+        left: 40vw;
+        bottom: -5vw;
+    }
+
+}
+
+/*KAMPGNE SIDE - DESKTOP*/
+@media (min-width: 768px) {
+    #kampagne .sectionwrapper {
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+}
+
+
+/*MÅLGRUPPE SIDE - DESKTOP*/
+@media (min-width: 768px) {
+    #group .sectionwrapper {
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+
+}
