@@ -79,7 +79,7 @@ p {
 
 #kampagne .sectionwrapper {
     display: flex;
-    background-color: #253D80;
+    background-color: #EDB16E;
     flex-wrap: wrap-reverse;
 
 
@@ -99,7 +99,7 @@ p {
 /*MÅLGRUPPE*/
 #gruppe .sectionwrapper {
     display: flex;
-    background-color: #EDB16E;
+    background-color: #C8E0D9;
     flex-wrap: wrap-reverse;
 
 
