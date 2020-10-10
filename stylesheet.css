@@ -28,20 +28,6 @@ html {
     width: 50%;
 }
 
-/*SPLASHBILLEDE - MOBILE*/
-/*
-#splash .overlay {
-    position: absolute;
-    float: left;
-    width: 640px;
-    min-height: 722px;
-    background-color: #2424b5;
-    z-index: 300000;
-    opacity: 50%;
-}*/
-
-
-
 /*OVERSKRIFTER*/
 
 h1 {
@@ -154,9 +140,15 @@ a.button:hover {
 
 /*BURGERMENU mobilefirst*/
 
+
+nav {
+    background-color: #253D80;
+}
+
 #navbar a {
     font-family: 'Patua One', cursive;
     text-decoration: none;
+    color: #E7E7E5;
 
 }
 
@@ -175,12 +167,16 @@ a.button:hover {
 #menu ul {
     height: 100px;
     text-decoration: none;
+
 }
 
 #menuknap {
     float: right;
     margin-top: 10px;
     margin-right: 10px;
+    display: inline-block;
+    color: #E7E7E5;
+
 
 }
 
@@ -198,10 +194,6 @@ a.button:hover {
     color: #bcbcbc
 }
 
-#menuknap {
-    display: inline-block;
-    color: #4444d9;
-}
 
 #menu {
 
@@ -214,7 +206,7 @@ a.button:hover {
     padding: 0;
     margin: 0;
     text-align: center;
-    background-color: #e5e5e5;
+    background-color: #253D80;
     padding-top: 15px;
 }
 
@@ -248,7 +240,7 @@ a.button:hover {
         padding: 0;
         margin: 0;
         text-align: center;
-        background-color: #e5e5e5;
+        background-color: #253D80;
         padding-top: 15px;
     }
 
@@ -260,7 +252,8 @@ a.button:hover {
         padding-right: 10px;
         padding-left: 10px;
         text-align: center;
-        border-left: 0.1px solid black;
+        border-left: 0.1px solid #E7E7E5;
+        ;
     }
 
     #navbar ul li:first-child {
@@ -269,7 +262,7 @@ a.button:hover {
 
     #navbar ul li a {
         text-decoration: none;
-        color: black;
+        color: #E7E7E5;
     }
 
 
