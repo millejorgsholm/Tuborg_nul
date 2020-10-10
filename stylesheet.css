@@ -341,6 +341,35 @@ nav {
 
 }
 
+/*STYLING AF INDHOLD I DESKTOP*/
+@media (min-width: 768px) {
+    h1 {
+        position: relative;
+        left: -17.2vw;
+    }
+
+    h5 {
+        position: relative;
+        left: -19.4vw;
+        padding-top: 30px;
+    }
+
+    p {
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 12px;
+        line-height: 1.8rem;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-top: 30px;
+        padding-bottom: 80px;
+        margin: 10px;
+    }
+
+}
+
+
+
+
 /*KAMPGNE SIDE - DESKTOP*/
 @media (min-width: 768px) {
     #kampagne .sectionwrapper {
@@ -350,12 +379,11 @@ nav {
     }
 
     #kampagne img {
+        width: 300px;
         position: relative;
-        top: 5vw;
+        top: 1vw;
         left: 3vw;
     }
-
-
 
 }
 
