@@ -28,6 +28,31 @@ html {
     width: 50%;
 }
 
+/*--------------------------------------CSS-ANIMATIONER---------------------------------------*/
+
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes pulse_kf {
+    0% {
+        transform: scale(1)
+    }
+
+    50% {
+        transform: scale(1.02)
+    }
+
+
+
+    100% {
+        transform: scale(1)
+    }
+}
+
 /*OVERSKRIFTER*/
 
 h1 {
@@ -196,8 +221,9 @@ nav {
 }
 
 #menuknap {
+    font-size: 25px;
     float: right;
-    margin-top: -30px;
+    margin-top: -40px;
     margin-right: 10px;
     display: inline-block;
     color: #E7E7E5;
