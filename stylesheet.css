@@ -47,10 +47,10 @@ html {
 h1 {
     font-size: 30px;
     font-family: 'Patua One', cursive;
-    color: black;
-    padding-left: 85px;
+    color: #E7E7E5;
     margin-top: 10px;
     text-decoration: underline;
+    text-align: center;
 }
 
 h2 {
@@ -83,7 +83,7 @@ p {
 
 #kampagne .sectionwrapper {
     display: flex;
-    background-color: #a3dce6;
+    background-color: #253D80;
     flex-wrap: wrap-reverse;
 
 
@@ -99,7 +99,7 @@ p {
 /*MÅLGRUPPE*/
 #gruppe .sectionwrapper {
     display: flex;
-    background-color: #e8c176;
+    background-color: #EDB16E;
     flex-wrap: wrap-reverse;
 
 
@@ -123,10 +123,11 @@ p {
 /*KNAP*/
 
 a.button {
+    cursor: pointer;
     position: relative;
     display: inline-block;
     padding: 1.35em 2.2em;
-    border: 0.2em solid #e8c176;
+    border: 0.2em solid #253D80;
     margin: 0 0.3em 0.3em 0;
     border-radius: 0.12em;
     box-sizing: border-box;
@@ -137,16 +138,18 @@ a.button {
     color: white;
     text-align: center;
     transition: all 0.2s;
-    background-color: #e8c176;
+    background-color: #253D80;
     left: 27vw;
 
 }
 
+/*
 a.button:hover {
     color: white;
-    background-color: #4848b9;
+    background-color: #253D80;
     border: 0.2em solid #4848b9;
 }
+*/
 
 
 /*BURGERMENU mobilefirst*/
