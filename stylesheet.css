@@ -35,7 +35,7 @@ h1 {
     font-family: 'Patua One', cursive;
     color: #E7E7E5;
     margin-top: 10px;
-    text-decoration: underline;
+    text-decoration: none;
     text-align: center;
 }
 
@@ -50,8 +50,17 @@ h4 {
     font-family: 'Patua One', cursive;
     color: #4444d9;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     padding-top: 20px;
+}
+
+h5 {
+    font-size: 15px;
+    font-family: 'Patua One', cursive;
+    color: #E7E7E5;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
 }
 
 p {
@@ -60,7 +69,7 @@ p {
     line-height: 1.8rem;
     padding-left: 80px;
     padding-right: 80px;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-bottom: 40px;
     margin: 10px;
 }
@@ -118,7 +127,7 @@ a.button {
     border-radius: 0.12em;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Patua One', cursive;
     font-weight: 300;
     font-size: 15px;
     color: white;
@@ -304,7 +313,6 @@ nav {
 
 
 /*FORSIDE - MOBIL*/
-
 
 @media (max-width: 767px) {
     #videoBG {
