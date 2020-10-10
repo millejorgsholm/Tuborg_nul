@@ -265,7 +265,7 @@ h4 {
         list-style-type: none;
         transition: transform 0.3s;
         transform-origin: top left;
-        font-family: 'Open sans', sans-serif;
+        font-family: 'Helvetica Neue', sans-serif;
         font-weight: lighter;
         height: 70px;
         padding: 0;
@@ -324,7 +324,7 @@ h4 {
     background-image: url(arrow_down.svg);
     background-size: cover;
     left: 45vw;
-    bottom: 3vw;
+    bottom: 5vw;
 
 
 }
