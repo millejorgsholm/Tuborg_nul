@@ -116,6 +116,7 @@ p {
 
 #kampagne p {
     padding: 30px;
+
 }
 
 #kampagne h1 {
@@ -144,8 +145,6 @@ p {
 }
 
 
-
-
 #gruppe h1 {
     text-align: center;
 }
@@ -153,10 +152,10 @@ p {
 #gruppe h5 {
     text-align: center;
     color: #253D80;
+    padding-top: 30px;
 }
 
 #gruppe p {
-    text-align: center;
     padding: 30px;
 }
 
