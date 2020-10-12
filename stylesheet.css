@@ -96,44 +96,45 @@ p {
 
 /*VIDEOBG, SPLASHTEKST OG PIL */
 
-#videoBG {
-    display: none;
+@media (max-width: 768px) {
+    #videoBG {
+        display: none;
+    }
+
+    #splash {
+        background: url(black.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        background-position: 55% 15%;
+        /*        max-width: none;*/
+    }
+
+    #arrow {
+        position: absolute;
+        width: 10vw;
+        height: 10vw;
+        background-image: url(arrow_down.svg);
+        background-size: cover;
+        left: 42vw;
+        bottom: 4vw;
+    }
+
+    #splash_text {
+        position: absolute;
+        bottom: 20vw;
+        left: 27vw;
+        z-index: 1;
+
+    }
+
+    #splash_text h1 {
+        color: white;
+        margin: 0;
+        font-size: 20px;
+    }
 }
-
-#splash {
-    background: url(black.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-    background-position: 55% 15%;
-    max-width: none;
-}
-
-#arrow {
-    position: absolute;
-    width: 9vw;
-    height: 9vw;
-    background-image: url(arrow_down.svg);
-    background-size: cover;
-    left: 42vw;
-    bottom: 4vw;
-}
-
-#splash_text {
-    position: absolute;
-    bottom: 20vw;
-    left: 27vw;
-    z-index: 1;
-
-}
-
-#splash_text h1 {
-    color: white;
-    margin: 0;
-    font-size: 20px;
-}
-
 
 /*KAMPAGNE SEKTION*/
 
@@ -418,6 +419,8 @@ h4 {
 @media (min-width: 768px) {
     #splash {
         position: relative;
+        height: 100vh;
+
     }
 
     #videoBG {
@@ -443,6 +446,8 @@ h4 {
         margin: 0;
         font-size: 20px;
     }
+
+
 
 }
 
