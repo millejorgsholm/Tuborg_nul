@@ -156,7 +156,7 @@ p {
 
     }
 
-    #splash_text h1 {
+    #splash_text h2 {
         color: white;
         margin: 0;
         font-size: 20px;
@@ -272,25 +272,23 @@ a.button {
     border-radius: 0.12em;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Patua One', cursive;
-    font-weight: 300;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 500;
     font-size: 15px;
-    color: white;
+    color: #253D80;
     text-align: center;
     transition: all 0.2s;
-    background-color: #253D80;
     left: 27vw;
     margin-bottom: 30px;
 
 }
 
-/*
 a.button:hover {
     color: white;
     background-color: #253D80;
-    border: 0.2em solid #4848b9;
+    border: 0.2em solid #253D80;
+
 }
-*/
 
 /*HEADER TEKST - "TUBORG"*/
 #header_text h3 {
@@ -468,7 +466,7 @@ h4 {
 
     }
 
-    #splash_text h1 {
+    #splash_text h2 {
         color: white;
         margin: 0;
         font-size: 20px;
