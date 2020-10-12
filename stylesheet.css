@@ -93,6 +93,48 @@ p {
 
 }
 
+
+/*VIDEOBG, SPLASHTEKST OG PIL */
+
+#videoBG {
+    display: none;
+}
+
+#splash {
+    background: url(black.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-position: 55% 15%;
+    max-width: none;
+}
+
+#arrow {
+    position: absolute;
+    width: 9vw;
+    height: 9vw;
+    background-image: url(arrow_down.svg);
+    background-size: cover;
+    left: 42vw;
+    bottom: 4vw;
+}
+
+#splash_text {
+    position: absolute;
+    bottom: 20vw;
+    left: 27vw;
+    z-index: 1;
+
+}
+
+#splash_text h1 {
+    color: white;
+    margin: 0;
+    font-size: 20px;
+}
+
+
 /*KAMPAGNE SEKTION*/
 
 #kampagne {
@@ -372,7 +414,7 @@ h4 {
 
 }
 
-/*VIDEO BG - DESKTOP*/
+/*VIDEO BG OG SPLASH TEKST- DESKTOP*/
 @media (min-width: 768px) {
     #splash {
         position: relative;
@@ -388,6 +430,20 @@ h4 {
 
     }
 
+    #splash_text {
+        position: absolute;
+        bottom: 13vw;
+        left: 42vw;
+        z-index: 1;
+
+    }
+
+    #splash_text h1 {
+        color: white;
+        margin: 0;
+        font-size: 20px;
+    }
+
 }
 
 #arrow {
@@ -398,56 +454,6 @@ h4 {
     background-size: cover;
     left: 45vw;
     bottom: 5vw;
-}
-
-
-
-
-
-/*FORSIDE - MOBIL*/
-
-@media (max-width: 767px) {
-    #videoBG {
-        display: none;
-    }
-
-    #splash {
-        background: url(black.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100vh;
-        width: 100vw;
-        background-position: 55% 15%;
-        max-width: none;
-    }
-
-    #arrow {
-        position: absolute;
-        width: 12vw;
-        height: 12vw;
-        background-image: url(arrow_down.svg);
-        background-size: cover;
-        left: 40vw;
-        bottom: 4vw;
-    }
-
-    .splash_text {
-        position: absolute;
-        bottom: 20vw;
-        left: 20vw;
-        z-index: 1;
-
-    }
-
-
-    .splash_text h1 {
-        font-family: 'Patua One', cursive;
-        color: white;
-        margin-top: 10px;
-        text-decoration: none;
-        text-align: center;
-    }
-
 }
 
 
