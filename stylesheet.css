@@ -132,16 +132,18 @@ p {
 
 /*MÅLGRUPPE*/
 
-
-#gruppe .sectionwrapper {
-    max-width: 1200px;
-    margin: auto 0;
-}
-
 #gruppe {
     background-color: #C8E0D9;
 
 }
+
+#gruppe .sectionwrapper {
+    /*    max-width: 1200px;*/
+    margin: auto 0;
+
+}
+
+
 
 
 #gruppe h1 {
@@ -157,6 +159,7 @@ p {
     text-align: center;
     padding: 30px;
 }
+
 
 /*KAMPAGNEVIDEO*/
 
@@ -462,17 +465,24 @@ h4 {
         height: 100vh;
     }
 
+    #kampagne img {
+        width: 280px;
+        padding-top: 100px;
+    }
+
+    #kampagne p {
+        padding-top: 15px;
+    }
+
+    #kampagne h5 {
+        padding-top: 160px;
+    }
 }
 
 
 
 /*MÅLGRUPPE SIDE - DESKTOP*/
 @media (min-width: 768px) {
-    #gruppe .sectionwrapper {
-        display: flex;
-        flex-wrap: nowrap;
-
-    }
 
     #gruppe {
         width: 100vw;
@@ -490,6 +500,11 @@ h4 {
 
     #film img {
         padding-top: 150px;
+
+    }
+
+    #film p {
+        padding-right: 90px;
     }
 
 }
