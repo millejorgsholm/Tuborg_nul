@@ -3,7 +3,7 @@ window.addEventListener("load", sidenVises);
 function sidenVises() {
     console.log("sidenVises");
     document.querySelector("#menuknap").addEventListener("click", toggleMenu);
-    document.querySelector("#arrow").classList.add("pulse");
+    document.querySelector("#arrow").classList.add("mover");
 }
 
 function toggleMenu() {

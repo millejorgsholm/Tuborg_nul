@@ -32,6 +32,33 @@ html {
 
 /*--------------------------------------CSS-ANIMATIONER---------------------------------------*/
 
+.mover {
+    animation-name: mover_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes mover_kf {
+    0% {
+        transform: translateY(0px);
+    }
+
+    60% {
+        transform: translateY(10px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+
+/*
 .pulse {
     animation-name: pulse_kf;
     animation-duration: 1.5s;
@@ -45,7 +72,7 @@ html {
     }
 
     50% {
-        transform: scale(1.02)
+        transform: scale(1.09)
     }
 
 
@@ -53,7 +80,7 @@ html {
     100% {
         transform: scale(1)
     }
-}
+}*/
 
 
 
@@ -113,17 +140,17 @@ p {
 
     #arrow {
         position: absolute;
-        width: 10vw;
-        height: 10vw;
+        width: 7vw;
+        height: 7vw;
         background-image: url(arrow_down.svg);
         background-size: cover;
         left: 42vw;
-        bottom: 4vw;
+        bottom: 6vw;
     }
 
     #splash_text {
         position: absolute;
-        bottom: 20vw;
+        bottom: 16vw;
         left: 27vw;
         z-index: 1;
 
@@ -448,17 +475,15 @@ h4 {
     }
 
 
-
-}
-
-#arrow {
-    position: absolute;
-    width: 4.5vw;
-    height: 4.5vw;
-    background-image: url(arrow_down.svg);
-    background-size: cover;
-    left: 46vw;
-    bottom: 7vw;
+    #arrow {
+        position: absolute;
+        width: 4.5vw;
+        height: 4.5vw;
+        background-image: url(arrow_down.svg);
+        background-size: cover;
+        left: 46vw;
+        bottom: 7vw;
+    }
 }
 
 
