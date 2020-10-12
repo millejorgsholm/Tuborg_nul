@@ -448,12 +448,12 @@ h4 {
 
 #arrow {
     position: absolute;
-    width: 7vw;
-    height: 7vw;
+    width: 4.5vw;
+    height: 4.5vw;
     background-image: url(arrow_down.svg);
     background-size: cover;
-    left: 45vw;
-    bottom: 5vw;
+    left: 46vw;
+    bottom: 7vw;
 }
 
 
