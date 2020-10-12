@@ -474,8 +474,27 @@ h4 {
 
     }
 
+    #gruppe {
+        width: 100vw;
+        height: 100vh;
+    }
+
 
 }
+
+/*KAMPAGNEVIDEO SIDE - DESKTOP*/
+@media (min-width: 768px) {
+    #film .sectionwrapper {
+        display: flex;
+    }
+
+    #film img {
+        padding-top: 150px;
+    }
+
+}
+
+
 
 
 /*KAMPGNEVIDEO SIDE - DESKTOP*/
