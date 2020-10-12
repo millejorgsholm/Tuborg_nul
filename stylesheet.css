@@ -28,6 +28,8 @@ html {
     width: 50%;
 }
 
+
+
 /*--------------------------------------CSS-ANIMATIONER---------------------------------------*/
 
 .pulse {
@@ -63,7 +65,7 @@ h1 {
     color: black;
     margin-top: 10px;
     text-decoration: none;
-    text-align: center;
+
 }
 
 h2 {
@@ -80,7 +82,7 @@ h5 {
     color: #E7E7E5;
     margin-top: 10px;
     text-decoration: none;
-    text-align: center;
+
 }
 
 p {
@@ -88,55 +90,60 @@ p {
         sans-serif;
     font-size: 12px;
     line-height: 1.8rem;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 40px;
-    margin: 10px;
 }
 
 /*KAMPAGNE SEKTION*/
 
-#kampagne .sectionwrapper {
-    display: flex;
+#kampagne {
     background-color: #EDB16E;
+}
+
+#kampagne .sectionwrapper {
+    max-width: 1200px;
+    margin: auto 0;
+    display: flex;
     flex-wrap: wrap-reverse;
 
-
 }
+
 
 #kampagne h5 {
     color: #C8E0D9;
 }
 
-#kampagne img {
-    position: relative;
-    bottom: 9vw;
-    left: 25vw;
+#kampagne .column {
+    flex-grow: 1;
+    flex-basis: 300;
 }
 
 
 /*MÅLGRUPPE*/
+
 #gruppe .sectionwrapper {
-    display: flex;
-    background-color: #C8E0D9;
-    flex-wrap: wrap-reverse;
-
-
+    max-width: 1200px;
+    margin: auto 0;
 }
+
+#gruppe {
+    background-color: #C8E0D9;
+}
+
 
 #gruppe h5 {
     color: #253D80;
 }
 
 
-#gruppe img {
-    position: relative;
-    bottom: 9vw;
-    left: 25vw;
+/*KAMPAGNEVIDEO*/
+
+#film .sectionwrapper {
+    max-width: 1200px;
+    margin: auto 0;
 }
 
-/*KAMPAGNEVIDEO*/
+#film {
+    background-color: white;
+}
 
 #film h5 {
     color: #EDB16E;
@@ -371,7 +378,7 @@ h4 {
     }
 
     #splash {
-        background: url(splash.jpg);
+        background: url(black.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 100vh;
@@ -418,36 +425,8 @@ h4 {
 
     }
 
-    #kampagne h1 {
-        position: relative;
-        left: -20.8vw;
-
-    }
-
-    #kampagne h5 {
-        position: relative;
-        left: -23vw;
-        padding-top: 30px;
-    }
-
-    #kampagne p {
-        padding-left: 150px;
-        padding-right: 150px;
-        padding-top: 30px;
-        margin: 10px;
-    }
-
-
-    #kampagne img {
-        width: 300px;
-        position: relative;
-        top: 1vw;
-        left: 3vw;
-    }
-
-
-
 }
+
 
 
 /*MÅLGRUPPE SIDE - DESKTOP*/
@@ -458,31 +437,12 @@ h4 {
 
     }
 
-    #gruppe p {
-        padding-left: 150px;
-        padding-right: 150px;
-        padding-top: 30px;
-        margin: 10px;
-    }
-
-
-    #gruppe img {
-        position: relative;
-        top: 5vw;
-        left: 3vw;
-    }
 
 }
 
 
 /*KAMPGNEVIDEO SIDE - DESKTOP*/
 @media (min-width: 768px) {
-    #film img {
-        position: relative;
-        bottom: 1vw;
-        left: 7vw;
-    }
-
     a.button {
         position: relative;
         left: 8vw;
